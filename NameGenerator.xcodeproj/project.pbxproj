@@ -21,6 +21,7 @@
 		EFC3CB8718D2C2B50083ED73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC3CB6918D2C2B50083ED73 /* UIKit.framework */; };
 		EFC3CB8F18D2C2B50083ED73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFC3CB8D18D2C2B50083ED73 /* InfoPlist.strings */; };
 		EFC3CB9118D2C2B50083ED73 /* NameGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC3CB9018D2C2B50083ED73 /* NameGeneratorTests.m */; };
+		EFC3CB9D18D2C3B70083ED73 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC3CB9C18D2C3B70083ED73 /* iCarousel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EFC3CB8C18D2C2B50083ED73 /* NameGeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NameGeneratorTests-Info.plist"; sourceTree = "<group>"; };
 		EFC3CB8E18D2C2B50083ED73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EFC3CB9018D2C2B50083ED73 /* NameGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NameGeneratorTests.m; sourceTree = "<group>"; };
+		EFC3CB9B18D2C3B70083ED73 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		EFC3CB9C18D2C3B70083ED73 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 				EFC3CB7718D2C2B50083ED73 /* Main.storyboard */,
 				EFC3CB7A18D2C2B50083ED73 /* NGViewController.h */,
 				EFC3CB7B18D2C2B50083ED73 /* NGViewController.m */,
+				EFC3CB9A18D2C3B70083ED73 /* iCarousel */,
 				EFC3CB7D18D2C2B50083ED73 /* Images.xcassets */,
 				EFC3CB6C18D2C2B50083ED73 /* Supporting Files */,
 			);
@@ -150,6 +154,15 @@
 				EFC3CB8D18D2C2B50083ED73 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFC3CB9A18D2C3B70083ED73 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				EFC3CB9B18D2C3B70083ED73 /* iCarousel.h */,
+				EFC3CB9C18D2C3B70083ED73 /* iCarousel.m */,
+			);
+			path = iCarousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFC3CB7C18D2C2B50083ED73 /* NGViewController.m in Sources */,
+				EFC3CB9D18D2C3B70083ED73 /* iCarousel.m in Sources */,
 				EFC3CB7218D2C2B50083ED73 /* main.m in Sources */,
 				EFC3CB7618D2C2B50083ED73 /* NGAppDelegate.m in Sources */,
 			);
@@ -461,6 +475,7 @@
 				EFC3CB9618D2C2B50083ED73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFC3CB9718D2C2B50083ED73 /* Build configuration list for PBXNativeTarget "NameGeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +484,7 @@
 				EFC3CB9918D2C2B50083ED73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
