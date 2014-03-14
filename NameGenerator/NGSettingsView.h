@@ -1,5 +1,5 @@
 //
-//  NGViewController.h
+//  NGSettingsView.h
 //  NameGenerator
 //
 //  Created by Tyler Kuster on 3/13/14.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "iCarousel.h"
 
-@interface NGViewController : UIViewController <iCarouselDelegate, iCarouselDataSource>
+@interface NGSettingsView : UIView
 
 @end

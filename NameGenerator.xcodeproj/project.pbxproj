@@ -22,6 +22,9 @@
 		EFC3CB8F18D2C2B50083ED73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFC3CB8D18D2C2B50083ED73 /* InfoPlist.strings */; };
 		EFC3CB9118D2C2B50083ED73 /* NameGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC3CB9018D2C2B50083ED73 /* NameGeneratorTests.m */; };
 		EFC3CB9D18D2C3B70083ED73 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC3CB9C18D2C3B70083ED73 /* iCarousel.m */; };
+		EFC3CBA018D2C8780083ED73 /* NGSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC3CB9F18D2C8780083ED73 /* NGSettingsView.m */; };
+		EFC3CBA318D2C8920083ED73 /* NGeneratorView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC3CBA218D2C8920083ED73 /* NGeneratorView.m */; };
+		EFC3CBA618D2C89E0083ED73 /* NGResultsView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC3CBA518D2C89E0083ED73 /* NGResultsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,12 @@
 		EFC3CB9018D2C2B50083ED73 /* NameGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NameGeneratorTests.m; sourceTree = "<group>"; };
 		EFC3CB9B18D2C3B70083ED73 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		EFC3CB9C18D2C3B70083ED73 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		EFC3CB9E18D2C8780083ED73 /* NGSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGSettingsView.h; path = ../../../../../../kustert/Development/Apple/iOS/NameGenerator/NameGenerator/NGSettingsView.h; sourceTree = "<group>"; };
+		EFC3CB9F18D2C8780083ED73 /* NGSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGSettingsView.m; path = ../../../../../../kustert/Development/Apple/iOS/NameGenerator/NameGenerator/NGSettingsView.m; sourceTree = "<group>"; };
+		EFC3CBA118D2C8920083ED73 /* NGeneratorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGeneratorView.h; path = ../../../../../../kustert/Development/Apple/iOS/NameGenerator/NameGenerator/NGeneratorView.h; sourceTree = "<group>"; };
+		EFC3CBA218D2C8920083ED73 /* NGeneratorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGeneratorView.m; path = ../../../../../../kustert/Development/Apple/iOS/NameGenerator/NameGenerator/NGeneratorView.m; sourceTree = "<group>"; };
+		EFC3CBA418D2C89E0083ED73 /* NGResultsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGResultsView.h; path = ../../../../../../kustert/Development/Apple/iOS/NameGenerator/NameGenerator/NGResultsView.h; sourceTree = "<group>"; };
+		EFC3CBA518D2C89E0083ED73 /* NGResultsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGResultsView.m; path = ../../../../../../kustert/Development/Apple/iOS/NameGenerator/NameGenerator/NGResultsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +129,12 @@
 				EFC3CB7718D2C2B50083ED73 /* Main.storyboard */,
 				EFC3CB7A18D2C2B50083ED73 /* NGViewController.h */,
 				EFC3CB7B18D2C2B50083ED73 /* NGViewController.m */,
+				EFC3CB9E18D2C8780083ED73 /* NGSettingsView.h */,
+				EFC3CB9F18D2C8780083ED73 /* NGSettingsView.m */,
+				EFC3CBA118D2C8920083ED73 /* NGeneratorView.h */,
+				EFC3CBA218D2C8920083ED73 /* NGeneratorView.m */,
+				EFC3CBA418D2C89E0083ED73 /* NGResultsView.h */,
+				EFC3CBA518D2C89E0083ED73 /* NGResultsView.m */,
 				EFC3CB9A18D2C3B70083ED73 /* iCarousel */,
 				EFC3CB7D18D2C2B50083ED73 /* Images.xcassets */,
 				EFC3CB6C18D2C2B50083ED73 /* Supporting Files */,
@@ -263,10 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC3CBA618D2C89E0083ED73 /* NGResultsView.m in Sources */,
 				EFC3CB7C18D2C2B50083ED73 /* NGViewController.m in Sources */,
+				EFC3CBA018D2C8780083ED73 /* NGSettingsView.m in Sources */,
 				EFC3CB9D18D2C3B70083ED73 /* iCarousel.m in Sources */,
 				EFC3CB7218D2C2B50083ED73 /* main.m in Sources */,
 				EFC3CB7618D2C2B50083ED73 /* NGAppDelegate.m in Sources */,
+				EFC3CBA318D2C8920083ED73 /* NGeneratorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
